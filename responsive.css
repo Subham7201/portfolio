@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  cursive;
+    color: white;
+    /* background-color: #444; */
+    background-image: linear-gradient(5deg , #166d3b 0% , rgba(43, 28, 28, 0.904) 74%);
+
+    /* position: relative; */
+    z-index: -1;
+    opacity: 0.97;
+    
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(206, 25, 64);
+}
+
+.navigation-list{
+    display: flex;
+    margin: auto auto;
+    align-items: center;
+    width: 60%;
+}
+
+.nav-listitem{
+    margin: auto auto;
+    font-size: 20px;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+a:hover{
+    color: #eeec1a;
+    transition: all 1s ease-out;
+    transform: scale(2);
+}
+
+.search-box{
+    width: 40%;
+    text-align: right;
+}
+
+.btn-primary{
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 4px;
+
+}
+
+#btn-primary{
+    margin-right: 1.2rem;
+    background-color: rgba(121, 40, 57, 0.712);
+}
+
+/* Now we will be writing the media query for the responsiveness of the 
+navigation menu max width 1058px */
+@media only screen and (max-width:1058px) {
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(206, 25, 64);
+        height: auto;
+    }
+    
+    .navigation-list{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .nav-listitem{
+        margin: 5px auto;
+        font-size: 20px;
+        color: white;
+    }
+    
+    ul{
+        list-style: none;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;  
+    }
+    
+    a:hover{
+        color: #eeec1a;
+        transition: all 1s ease-out;
+    }
+    
+    .btn-primary{
+        display: none;
+    }
+} 
+
+/* The work for the navigation menu ends here */
+/* Now we will work on the section containing my photos and details */
+
+.container{
+    display: flex;
+    margin-top: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 600px;
+    margin: 40px auto;
+}
+#myself{
+    grid-area: myself;
+}
+#preview{
+    grid-area: preview;
+}
+
+.primaryheading{
+    font-weight: 300;
+    font-size: 60px;
+    color: white;
+}
+.secondaryheading{
+    font-weight: 300;
+    font-size: 30px;
+}
+.brief{
+      font-size: 18px;
+}
+h6{
+    font-weight: 300;
+    font-size: 30px;
+    color: rgba(214, 72, 47, 0.911);
+}
+
+.secondary-name{
+    color: #eeec1a;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: #eeec1a;
+    transition: all 1s ease-out ;
+}
+
+img{
+    height: 36rem;
+    width: 24.475rem;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.ok{
+    color: yellowgreen;
+}
+
+
+/* Work experience */
+.work-heading{
+    width: 326px;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+    color:rgb(227, 130, 130) ;
+    border-bottom: 3px solid white;
+}
+.works{
+   text-align: center;
+   font-size: 24px;
+   padding-top: 7px;
+   height: 50px;
+}
+.work-experience{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+}
+
+.contact-me{
+    height: 400px;
+    /* background-color: rgb(84, 22, 109); */
+}
+
+.contact-button{
+    display: block;
+    margin: 49px 40px;
+    font-size: 30px;
+    padding: 9px;
+    background-color: rgba(84, 22, 109, 0.63);
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(53, 37, 37, 0.568);
+    transition: all 1sec ease-in-out;
+}
+
+h4{
+    width: 400px;
+    margin: 15px auto;
+    color: blue;
+    font-weight: 600;
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 5px solid hotpink ;
+}
+
+

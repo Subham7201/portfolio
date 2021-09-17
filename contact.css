@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: comic sans-ms;
+    background-color: rgb(49, 45, 45);
+    color: white;
+ 
+}
+
+.headingdiv{
+    margin-top: 84px;
+    margin-bottom: 25px ;
+    margin-left: 46px;
+}
+.primarycontact-heading{
+    font-weight: 500;
+    font-size: 5rem;
+}
+
+p{
+    margin-left: 14px;
+}
+
+span{
+    color: #00b953;
+}
+
+button{
+    background-color: rgb(66, 58, 58);
+    font-size: 20px;
+    padding: 14px;
+    border: 2px solid white;
+    margin: 2px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(159, 212, 14) ;
+    
+    transition: all 1s ease-in-out;
+}
+
+button:hover{
+
+    background: rgba(34, 30, 30, 0.692); 
+     /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px 1px rgb(255, 5, 159);
+    transition: all 1s ease-out ;
+    transform: translate(20px,20px) scale(1.333);
+}
+
+
+.contactcontainer{
+    display: flex;
+    width: 61%;
+    margin: 10px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactbutton1{
+      margin-right: 38px;
+}
+#contactbutton2{
+    margin-left: 38px;
+}
+
+#contactbutton3{
+    margin: 30px 545px;
+    
+}
+
+#marginadjuster{
+    width: 296px;
+    margin-top: 30px;
+    margin-left: 600px;
+}
